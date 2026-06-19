@@ -1,0 +1,51 @@
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML / Training
+train_log/
+test_log/
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+runs/
+
+# Data
+data/
+
+# CLIP model cache
+*.cache/clip/
+
+# Weights (trained)
+weights/
+
+# Visualization outputs
+vis_results/
+workspaces/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda
+envs/
